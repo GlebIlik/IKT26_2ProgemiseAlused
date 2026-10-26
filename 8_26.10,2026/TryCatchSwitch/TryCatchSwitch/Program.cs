@@ -25,6 +25,10 @@
             {
                 Console.WriteLine("Palun sisesta number!");
             }
+            catch
+            {
+                Console.WriteLine("Number on liiga suur!");
+            }
         }
     }
 }
