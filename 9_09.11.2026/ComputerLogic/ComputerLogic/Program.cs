@@ -11,11 +11,12 @@
             double calculation3 = (3 + 8) / (4 - 2) * 4;
             double calculation4 = (3.0 + 8.0) / (4.0 - 2.0) * 4.0;
                 //kui tahad, et võtaksarvesse komakohta, siis pane nr lõppu .0
+            
 
             Console.WriteLine("3 + 8 / (4 - 2) * 4 = " + calculation1);
             Console.WriteLine("3 + 8 / 4 - 2 * 4 = " + calculation2);
             Console.WriteLine("(3 + 8) / (4 - 2) * 4 = " + calculation3);
-            //annab vastuseks 20, aga peaks olema 22
+                //annab vastuseks 20, aga peaks olema 22
             Console.WriteLine("(3 + 8) / (4 - 2) * 4 = " + calculation4);
         }
     }
