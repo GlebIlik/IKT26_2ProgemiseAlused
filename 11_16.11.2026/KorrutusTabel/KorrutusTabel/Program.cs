@@ -11,7 +11,7 @@
 
             Console.WriteLine("Sisesta tabelisse number, mis on viimane korrutis");
             n = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine($"Korrutustabel ühest kuni {0}", n);
+            Console.WriteLine($"Korrutustabel ühest kuni {n}");
             Console.WriteLine("\n");
 
             for (i = 1; i <= 10; i++)
