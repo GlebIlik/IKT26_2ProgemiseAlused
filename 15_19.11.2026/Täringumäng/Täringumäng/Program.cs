@@ -16,7 +16,7 @@ namespace Täringumäng
             int playerScore = 0;
             int pcScore = 0;
 
-            for (int round = 1; round <= voorud ; round++)
+            for (int round = 1; round < voorud ; round++)
             {
                 Console.WriteLine($"Voor {round}. Vajuta Enter, et täringut veeretada!");
                 Console.ReadLine();
