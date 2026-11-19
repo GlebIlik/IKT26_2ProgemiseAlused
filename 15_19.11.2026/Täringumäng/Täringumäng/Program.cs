@@ -53,7 +53,6 @@ namespace Täringumäng
             else if (playerScore > pcScore)
             {
                 Console.WriteLine("Sa võitsid kogu mängu!");
-
             }
             else
             {
